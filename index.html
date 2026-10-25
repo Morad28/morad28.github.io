@@ -1,53 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Meet Your Name, mathematics teacher for secondary school students.">
-  <title>Your Name | Mathematics Teacher</title>
+  <meta name="description" content="Morad Ben Tayeb — docteur en mathématiques appliquées, intelligence artificielle et calcul scientifique.">
+  <title>Morad Ben Tayeb | Mathématiques</title>
   <link rel="stylesheet" href="style.css">
+  <script src="language.js" defer></script>
 </head>
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="index.html">Your Name <span>Mathematics</span></a>
-      <nav aria-label="Main navigation">
-        <a class="active" href="index.html">Biography</a>
-        <a href="teaching.html">Teaching</a>
+      <a class="brand" href="index.html"><span class="brand-name">Morad Ben Tayeb</span><span class="brand-sub" data-i18n="brandSub">Mathématiques · Enseignement</span></a>
+      <nav aria-label="Navigation principale">
+        <a class="active" href="index.html" data-i18n="navBio">Biographie</a>
+        <a href="teaching.html" data-i18n="navTeaching">Enseignement</a>
       </nav>
+      <div class="language-switch" aria-label="Language">
+        <button type="button" class="lang-button active" data-lang="fr" aria-pressed="true">FR</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" class="lang-button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="bio-hero">
       <div class="container bio-layout">
-        <div class="bio-label">MATHEMATICS TEACHER</div>
+        <aside class="bio-label" data-i18n="role">DOCTEUR EN MATHÉMATIQUES APPLIQUÉES</aside>
         <div class="bio-content">
-          <p class="eyebrow">WELCOME</p>
-          <h1>Hello, I'm <span>Your Name.</span></h1>
-          <p class="lead">I help secondary school students build a clear understanding of mathematics, one idea at a time.</p>
+          <p class="eyebrow" data-i18n="welcome">BIENVENUE</p>
+          <h1 data-i18n="headline">Bonjour, je suis <span>Morad Ben Tayeb.</span></h1>
+          <p class="lead" data-i18n="lead">Docteur en mathématiques appliquées, spécialisé en intelligence artificielle et en calcul scientifique.</p>
           <div class="rule"></div>
-          <h2>About me</h2>
-          <p>Welcome to my website. I am a mathematics teacher who believes that learning maths should be thoughtful, structured, and accessible. My aim is to help students understand not only how to solve a problem, but why a method works.</p>
-          <p>In my teaching, I focus on clear explanations, carefully chosen examples, and regular practice. I encourage students to ask questions, explain their reasoning, and see mistakes as a useful part of learning.</p>
-          <p>This website brings together information about my approach to teaching and a collection of learning materials for students. I hope it helps you study with greater confidence and independence.</p>
+          <h2 data-i18n="aboutTitle">À propos</h2>
+          <p data-i18n="bio1">Je suis docteur en mathématiques appliquées, avec une spécialisation en intelligence artificielle et en calcul scientifique. Mes travaux portent notamment sur l’apprentissage automatique, le deep learning et l’IA générative appliqués à la modélisation et à l’accélération de simulations numériques.</p>
+          <p data-i18n="bio2">Entre octobre 2022 et octobre 2025, j’ai réalisé une thèse au CELIA (CEA/CESTA), à Bordeaux. J’y ai développé des modèles de substitution fondés sur le deep learning pour réduire le coût de calcul de simulations d’hydrodynamique radiative, ainsi que des méthodes d’IA générative pour explorer des profils d’intensité laser.</p>
+          <p data-i18n="bio3">J’ai également effectué des stages à IFPEN et au CEA Saclay, autour du maillage, du traitement de données scientifiques et du développement logiciel. Ma formation comprend un master en mathématiques appliquées à Sorbonne Université et un diplôme d’ingénieur de l’ISAE-ENSMA.</p>
+          <p data-i18n="bio4">De 2022 à 2025, j’ai été tuteur bénévole à l’Académie Younus, où j’ai accompagné en mathématiques et en physique des lycéens rencontrant des difficultés scolaires. Je souhaite rendre les notions accessibles grâce à des explications structurées, des exemples progressifs et un entraînement régulier.</p>
+
           <div class="bio-details">
-            <div><span class="detail-label">SUBJECT</span><strong>Mathematics</strong></div>
-            <div><span class="detail-label">STUDENTS</span><strong>Secondary school</strong></div>
-            <div><span class="detail-label">APPROACH</span><strong>Clear, step-by-step learning</strong></div>
+            <div><span class="detail-label" data-i18n="detail1Label">SPÉCIALITÉS</span><strong data-i18n="detail1">Mathématiques appliquées, IA</strong></div>
+            <div><span class="detail-label" data-i18n="detail2Label">FORMATION</span><strong data-i18n="detail2">Doctorat · Master · Ingénieur</strong></div>
+            <div><span class="detail-label" data-i18n="detail3Label">TUTORAT</span><strong data-i18n="detail3">Mathématiques et physique</strong></div>
           </div>
-          <a class="button" href="teaching.html">Explore teaching materials <span aria-hidden="true">→</span></a>
-          <p class="edit-note">Remember to replace “Your Name” and personalise this biography before publishing.</p>
+          <a class="button" href="teaching.html"><span data-i18n="bioCta">Consulter les ressources pédagogiques</span><span aria-hidden="true">→</span></a>
+          <p class="edit-note" data-i18n="sourceNote">Biographie rédigée à partir du CV fourni. Vous pouvez modifier le texte dans index.html.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <span>Your Name · Mathematics</span>
-      <span>Learning through understanding and practice.</span>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-inner"><span>Morad Ben Tayeb · Mathématiques</span><span data-i18n="footerLine">Comprendre, pratiquer, progresser.</span></div></footer>
 </body>
 </html>
