@@ -3,164 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Mathematics lessons, practice exercises, and quizzes for secondary school students.">
-  <title>Math with Your Name | Learn Mathematics</title>
+  <meta name="description" content="Meet Your Name, mathematics teacher for secondary school students.">
+  <title>Your Name | Mathematics Teacher</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="#home" aria-label="Math with Your Name home">
-        <span class="brand-mark">∑</span>
-        <span>Math with <strong>Your Name</strong></span>
-      </a>
-      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
-      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#lessons">Lessons</a>
-        <a href="#practice">Practice</a>
-        <a class="nav-cta" href="#quiz">Try a quiz</a>
+      <a class="brand" href="index.html">Your Name <span>Mathematics</span></a>
+      <nav aria-label="Main navigation">
+        <a class="active" href="index.html">Biography</a>
+        <a href="teaching.html">Teaching</a>
       </nav>
     </div>
   </header>
 
-  <main id="main">
-    <section id="home" class="hero">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow"><span class="eyebrow-dot"></span> MATHEMATICS MADE CLEAR</p>
-          <h1>Build confidence.<br><span>Understand maths.</span></h1>
-          <p class="hero-lead">Friendly explanations, useful examples, and bite-sized practice for secondary school students.</p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#lessons">Explore lessons <span aria-hidden="true">→</span></a>
-            <a class="button button-secondary" href="#quiz">Take a quick quiz</a>
+  <main>
+    <section class="bio-hero">
+      <div class="container bio-layout">
+        <div class="bio-label">MATHEMATICS TEACHER</div>
+        <div class="bio-content">
+          <p class="eyebrow">WELCOME</p>
+          <h1>Hello, I'm <span>Your Name.</span></h1>
+          <p class="lead">I help secondary school students build a clear understanding of mathematics, one idea at a time.</p>
+          <div class="rule"></div>
+          <h2>About me</h2>
+          <p>Welcome to my website. I am a mathematics teacher who believes that learning maths should be thoughtful, structured, and accessible. My aim is to help students understand not only how to solve a problem, but why a method works.</p>
+          <p>In my teaching, I focus on clear explanations, carefully chosen examples, and regular practice. I encourage students to ask questions, explain their reasoning, and see mistakes as a useful part of learning.</p>
+          <p>This website brings together information about my approach to teaching and a collection of learning materials for students. I hope it helps you study with greater confidence and independence.</p>
+          <div class="bio-details">
+            <div><span class="detail-label">SUBJECT</span><strong>Mathematics</strong></div>
+            <div><span class="detail-label">STUDENTS</span><strong>Secondary school</strong></div>
+            <div><span class="detail-label">APPROACH</span><strong>Clear, step-by-step learning</strong></div>
           </div>
-          <div class="hero-note"><span class="check-icon">✓</span> Learn at your own pace, one step at a time.</div>
-        </div>
-        <div class="math-card" aria-label="Example algebra equation">
-          <div class="math-card-top"><span class="window-dots"><i></i><i></i><i></i></span><span>YOUR MATH SPACE</span></div>
-          <div class="equation-label">A little algebra</div>
-          <div class="equation">2x + 5 = 17</div>
-          <div class="equation-rule"></div>
-          <div class="solution-row"><span>Subtract 5</span><strong>2x = 12</strong></div>
-          <div class="solution-row"><span>Divide by 2</span><strong>x = 6</strong></div>
-          <div class="answer-pill"><span>✓</span> Solved step by step</div>
-          <div class="floating-star" aria-hidden="true">✳</div>
+          <a class="button" href="teaching.html">Explore teaching materials <span aria-hidden="true">→</span></a>
+          <p class="edit-note">Remember to replace “Your Name” and personalise this biography before publishing.</p>
         </div>
       </div>
-      <div class="hero-bottom" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-    </section>
-
-    <section class="quick-stats" aria-label="Website highlights">
-      <div class="container stats-grid">
-        <div><span class="stat-icon">01</span><span><strong>Clear lessons</strong><small>Ideas broken into steps</small></span></div>
-        <div><span class="stat-icon">02</span><span><strong>Worked examples</strong><small>See how answers are found</small></span></div>
-        <div><span class="stat-icon">03</span><span><strong>Practice quizzes</strong><small>Check your understanding</small></span></div>
-      </div>
-    </section>
-
-    <section id="about" class="section about-section">
-      <div class="container about-grid">
-        <div class="section-heading">
-          <p class="eyebrow">A NOTE FROM YOUR TEACHER</p>
-          <h2>Maths is a skill<br>you can <span>grow.</span></h2>
-          <div class="heading-line"></div>
-        </div>
-        <div class="about-copy">
-          <p class="about-intro">Hello, I'm <strong>Your Name</strong> — welcome to my mathematics classroom online!</p>
-          <p>I believe everyone can make progress in mathematics with clear explanations, regular practice, and a little patience. This website is here to help secondary school students explore key topics, follow worked examples, and practise new skills in a supportive space.</p>
-          <p>Start with a lesson, try the exercises, and use mistakes as a chance to learn. Keep going — every step counts.</p>
-          <div class="teacher-signoff"><span class="signoff-mark">∑</span><span><strong>Your Name</strong><small>Mathematics teacher</small></span></div>
-          <p class="edit-note">Personalise this bio in <code>index.html</code> before publishing.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="lessons" class="section lessons-section">
-      <div class="container">
-        <div class="section-title-row">
-          <div><p class="eyebrow">LEARN SOMETHING NEW</p><h2>Explore the <span>lessons.</span></h2></div>
-          <p class="section-subtitle">Choose a topic and work through the example at your own pace.</p>
-        </div>
-        <div class="lesson-grid">
-          <article class="lesson-card">
-            <div class="lesson-icon icon-blue">x²</div><p class="lesson-tag">ALGEBRA · 10 MIN</p>
-            <h3>Solving equations</h3><p>Find the unknown by keeping both sides of an equation balanced.</p>
-            <div class="worked-example"><span>Example</span><strong>3x − 4 = 11</strong><small>Add 4 → 3x = 15 → x = 5</small></div>
-            <a href="#practice" class="text-link">Practise this topic <span>→</span></a>
-          </article>
-          <article class="lesson-card">
-            <div class="lesson-icon icon-purple">%</div><p class="lesson-tag">NUMBER · 8 MIN</p>
-            <h3>Percentages</h3><p>Understand percentages as parts out of one hundred.</p>
-            <div class="worked-example"><span>Example</span><strong>20% of 60</strong><small>0.20 × 60 = 12</small></div>
-            <a href="#practice" class="text-link">Practise this topic <span>→</span></a>
-          </article>
-          <article class="lesson-card">
-            <div class="lesson-icon icon-green">△</div><p class="lesson-tag">GEOMETRY · 12 MIN</p>
-            <h3>Triangle angles</h3><p>Use the angle sum to find a missing angle in a triangle.</p>
-            <div class="worked-example"><span>Example</span><strong>50° + 60° + x</strong><small>x = 180° − 110° = 70°</small></div>
-            <a href="#practice" class="text-link">Practise this topic <span>→</span></a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="practice" class="section practice-section">
-      <div class="container practice-grid">
-        <div class="practice-copy">
-          <p class="eyebrow">YOUR TURN</p>
-          <h2>Practice makes<br><span>progress.</span></h2>
-          <p>Try these questions without looking at the answers first. Show your working in a notebook, then reveal the solutions to check your method.</p>
-          <div class="practice-tip"><span>✦</span><p><strong>Study tip</strong><br>Don't just memorise the answer. Make sure you understand why each step works.</p></div>
-        </div>
-        <div class="exercise-list">
-          <article class="exercise">
-            <div class="exercise-number">01</div><div class="exercise-content"><p class="exercise-topic">ALGEBRA</p><h3>Solve: x + 9 = 14</h3>
-              <details><summary>Show answer and method</summary><p>Subtract 9 from both sides: x = 14 − 9, so <strong>x = 5</strong>.</p></details>
-            </div>
-          </article>
-          <article class="exercise">
-            <div class="exercise-number">02</div><div class="exercise-content"><p class="exercise-topic">PERCENTAGES</p><h3>Find 25% of 80.</h3>
-              <details><summary>Show answer and method</summary><p>25% is one quarter. Calculate 80 ÷ 4, so the answer is <strong>20</strong>.</p></details>
-            </div>
-          </article>
-          <article class="exercise">
-            <div class="exercise-number">03</div><div class="exercise-content"><p class="exercise-topic">GEOMETRY</p><h3>Two angles are 35° and 85°. Find the third angle of a triangle.</h3>
-              <details><summary>Show answer and method</summary><p>Angles in a triangle total 180°: 180° − 35° − 85° = <strong>60°</strong>.</p></details>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="quiz" class="section quiz-section">
-      <div class="container">
-        <div class="quiz-panel">
-          <div class="quiz-intro"><p class="eyebrow">QUICK KNOWLEDGE CHECK</p><h2>Ready for a <span>mini quiz?</span></h2><p>Answer three questions and see your score instantly.</p></div>
-          <form id="quiz-form">
-            <fieldset class="quiz-question"><legend>1. If 4x = 28, what is x?</legend>
-              <label><input type="radio" name="q1" value="a"> 6</label><label><input type="radio" name="q1" value="b"> 7</label><label><input type="radio" name="q1" value="c"> 8</label>
-            </fieldset>
-            <fieldset class="quiz-question"><legend>2. What is 10% of 150?</legend>
-              <label><input type="radio" name="q2" value="a"> 15</label><label><input type="radio" name="q2" value="b"> 10</label><label><input type="radio" name="q2" value="c"> 25</label>
-            </fieldset>
-            <fieldset class="quiz-question"><legend>3. What is the sum of angles in a triangle?</legend>
-              <label><input type="radio" name="q3" value="a"> 90°</label><label><input type="radio" name="q3" value="b"> 360°</label><label><input type="radio" name="q3" value="c"> 180°</label>
-            </fieldset>
-            <button class="button button-primary quiz-submit" type="submit">Check my answers <span aria-hidden="true">→</span></button>
-            <p id="quiz-result" class="quiz-result" role="status" aria-live="polite"></p>
-          </form>
-        </div>
-      </div>
-    </section>
-
-    <section class="closing-cta">
-      <div class="container closing-inner"><div><p class="eyebrow">KEEP LEARNING</p><h2>One question at a time.</h2><p>Come back whenever you're ready to practise some more.</p></div><a class="button button-light" href="#lessons">Back to lessons ↑</a></div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-mark">∑</span><span>Math with <strong>Your Name</strong></span></a><p>Made for curious minds. Keep asking questions.</p><a href="#home" class="back-top">Back to top ↑</a></div><div class="container footer-bottom">© <span id="year"></span> Your Name · Learning at your own pace.</div></footer>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>Your Name · Mathematics</span>
+      <span>Learning through understanding and practice.</span>
+    </div>
+  </footer>
 </body>
 </html>

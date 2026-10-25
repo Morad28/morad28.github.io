@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mathematics lessons, worked examples, exercises and a quiz for secondary school students.">
+  <title>Teaching | Your Name</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Your Name <span>Mathematics</span></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Biography</a>
+        <a class="active" href="teaching.html">Teaching</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <div class="container narrow">
+        <p class="eyebrow">LEARNING RESOURCES</p>
+        <h1>Teaching <span>mathematics.</span></h1>
+        <p class="lead">Short explanations, worked examples, and practice questions to help you strengthen your understanding.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">LESSON NOTES</p>
+          <h2>Start with a topic</h2>
+          <p class="section-desc">Read the example carefully, then try the practice questions below without looking at the answers.</p>
+        </div>
+        <div class="lesson-grid">
+          <article class="lesson-card">
+            <p class="topic">01 / ALGEBRA</p>
+            <h3>Solving equations</h3>
+            <p>An equation stays balanced when you do the same operation to both sides.</p>
+            <div class="example"><span>Worked example</span><strong>2x + 5 = 17</strong><p>Subtract 5: 2x = 12<br>Divide by 2: <b>x = 6</b></p></div>
+          </article>
+          <article class="lesson-card">
+            <p class="topic">02 / NUMBER</p>
+            <h3>Percentages</h3>
+            <p>A percentage describes a number of parts out of one hundred.</p>
+            <div class="example"><span>Worked example</span><strong>20% of 60</strong><p>Write 20% as 0.20.<br>0.20 × 60 = <b>12</b></p></div>
+          </article>
+          <article class="lesson-card">
+            <p class="topic">03 / GEOMETRY</p>
+            <h3>Angles in a triangle</h3>
+            <p>The interior angles of any triangle add up to 180°.</p>
+            <div class="example"><span>Worked example</span><strong>50° + 60° + x</strong><p>x = 180° − 110°<br>Therefore, <b>x = 70°</b></p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section practice-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">INDEPENDENT PRACTICE</p>
+          <h2>Try these questions</h2>
+          <p class="section-desc">Work them out on paper first, then reveal the solution to check your method.</p>
+        </div>
+        <div class="exercise-list">
+          <article class="exercise"><span class="exercise-no">1</span><div><h3>Solve: x + 9 = 14</h3><details><summary>Reveal solution</summary><p>Subtract 9 from both sides: x = 14 − 9, so <strong>x = 5</strong>.</p></details></div></article>
+          <article class="exercise"><span class="exercise-no">2</span><div><h3>Find 25% of 80.</h3><details><summary>Reveal solution</summary><p>25% is one quarter. Calculate 80 ÷ 4, so the answer is <strong>20</strong>.</p></details></div></article>
+          <article class="exercise"><span class="exercise-no">3</span><div><h3>Two angles in a triangle are 35° and 85°. Find the third angle.</h3><details><summary>Reveal solution</summary><p>180° − 35° − 85° = <strong>60°</strong>.</p></details></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section">
+      <div class="container quiz-layout">
+        <div class="section-heading">
+          <p class="eyebrow">CHECK YOUR UNDERSTANDING</p>
+          <h2>Short quiz</h2>
+          <p class="section-desc">Answer all three questions and check your score.</p>
+        </div>
+        <form id="quiz-form" class="quiz-form">
+          <fieldset><legend>1. If 4x = 28, what is x?</legend><label><input type="radio" name="q1" value="a"> 6</label><label><input type="radio" name="q1" value="b"> 7</label><label><input type="radio" name="q1" value="c"> 8</label></fieldset>
+          <fieldset><legend>2. What is 10% of 150?</legend><label><input type="radio" name="q2" value="a"> 15</label><label><input type="radio" name="q2" value="b"> 10</label><label><input type="radio" name="q2" value="c"> 25</label></fieldset>
+          <fieldset><legend>3. What is the sum of angles in a triangle?</legend><label><input type="radio" name="q3" value="a"> 90°</label><label><input type="radio" name="q3" value="b"> 360°</label><label><input type="radio" name="q3" value="c"> 180°</label></fieldset>
+          <button class="button" type="submit">Check answers</button>
+          <p id="quiz-result" class="quiz-result" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><span><a href="index.html">Your Name · Mathematics</a></span><span><a href="#top">Teaching resources</a></span></div></footer>
+</body>
+</html>
